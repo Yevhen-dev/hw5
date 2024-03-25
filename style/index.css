@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;
     min-width: 900px;
     max-width: 1500px;
-    margin: 0;
+    margin: 0 auto;
     background-color: #212529;
 }
 ul {
@@ -89,9 +89,9 @@ a {
 }
 .main__goals__list-item {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    width: fit-content;
-    padding: 5px 10px;
+    padding: 10px 20px;
     background: linear-gradient(90deg, #292B2E 0, #292B2E 100%);
     width: 25%;
     border-radius: 5px;
