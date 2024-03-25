@@ -214,7 +214,7 @@ a {
     transition: all 0.5s ease;
 }
 .main__skills__knowledge__list-item a:hover {
-    background-color: var(--orange);
+    background-color: rgba(255, 183, 66, 0.5);
 }
 .main__skills__knowledge__list-item>a>img {
     position: absolute;
